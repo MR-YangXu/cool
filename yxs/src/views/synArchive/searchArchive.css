@@ -1,0 +1,140 @@
+#searchArchive{
+  overflow: hidden;
+  /* margin-bottom: 80px; */
+}
+#searchArchive .dd .el-input__inner{
+  background-color:#eeeeee;
+  border-radius: 20px;
+  text-align:center;
+}
+#searchArchive .hang{
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  padding: 10px 0;
+}
+#searchArchive h1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#searchArchive .listDiv{
+  margin: 20px 10px 0;
+  overflow-y: auto;
+  height:auto;
+}
+#searchArchive .listP{
+  text-align: left;
+  padding-left: 5px;
+  background-color:#ccc;
+  margin:0;
+}
+#searchArchive .searchInput{
+  border-bottom:1px solid #ccc;
+  padding:5px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchArchive .el-input__inner{
+  border: 0px;
+  outline: none;
+}
+#searchArchive .el-button{
+  border-radius: 16px;
+}
+#searchArchive #Foot{
+  position: fixed;
+  bottom: 0;
+}
+#searchArchive .tab{
+  padding-top: 10px;
+  margin-bottom: 80px;
+}
+#searchArchive .tabBorder{
+  padding: 0 15px;
+  border-bottom: 3px solid #2e96e6;
+}
+#searchArchive .tabList{
+  background-color: #eeeeee;
+  text-align: center;
+  padding:10px 0;
+  border-radius: 10px 10px 0 0;
+  color: #666;
+}
+#searchArchive .tabActive{
+  background-color: #2e96e6;
+  color: #fff
+}
+#searchArchive .tabShow{
+
+}
+#searchArchive .colInput{
+  border: 0px;
+  width:100%;
+  text-indent: 30px;
+  margin-bottom: 10px;
+  outline: none;
+  line-height: 30px;
+  height: 30px;
+}
+#searchArchive .colButton{
+  border: 0px;
+  background-color: #2e96e6;
+  border-radius: 16px;
+  padding: 5px 15px;
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  outline: none;
+}
+#searchArchive .flexRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom:1px dashed rgba(153,153,153,0.2);
+}
+  #searchArchive .dd input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color:#999999;
+      text-align:center;
+  }
+  #searchArchive .dd input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color:#999999;
+      text-align:center;
+  }
+  #searchArchive .dd input::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color:#999999;
+      text-align:center;
+  }
+  #searchArchive .dd input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color:#999999;
+      text-align:center;
+  }
+  #searchArchive .dd input::-ms-input-placeholder { /* Microsoft Edge */
+      color:#999999;
+      text-align:center;
+  }
+  #searchArchive .allButton{
+      border: 0;
+      color: #fff;
+      background-color: rgb(166,166,166);
+      border-radius: 7px;
+  }
+  #searchArchive .allbutton{
+      border: 0;
+      color: #fff;
+      background-color: rgb(166,166,166);
+      border-radius: 7px;
+  }
+  #searchArchive .monthButton{
+      border: 0;
+      color: #fff;
+      background-color: rgb(166,166,166);
+      border-radius: 7px 7px 0 0;
+      height: 30px;
+      padding: 0 15px;
+  }

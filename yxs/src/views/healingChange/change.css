@@ -1,0 +1,276 @@
+#change{
+  overflow: auto;
+  height: 100%
+}
+#change .remark .el-input__inner{
+  border-bottom: 1px solid #000;
+  color: #606266;
+  background-color: #fff;
+  border-radius: 0;
+  height: 25px;
+  line-height: 25px;
+}
+#change .remark .el-input__inner::-webkit-input-placeholder{
+      color:#606266;
+  }
+#change .remark .el-input__inner::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color:#606266;
+}
+#change .remark .el-input__inner:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:#606266;
+}
+#change .remark .el-input__inner:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+  color:#606266;
+}
+#change .el-checkbox__label{
+  font-size: 14px;
+}
+#change .el-tabs__header{
+  margin: 0;
+}
+#change .el-tabs__nav-next, .el-tabs__nav-prev{
+  line-height: 40px;
+  font-size: 17px;
+}
+#change #canvasBox{
+  position: absolute;
+  left: 0;
+  z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #efefef;
+  padding: 40px 0 0;
+}
+#change .btnDiv .el-input__inner{
+  text-align: center;
+}
+#change #name1{
+  width: 50px;
+  height: 50px;
+}
+#change .writeName{
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+#change .canvasBtn{
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #2e96e6;
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 20px;
+  outline: none;
+  /* font-size: 18px; */
+}
+#change .radioBtn{
+  border: 0px;
+  background-color: #fff;
+  color: #828282;
+  text-align: center;
+  padding: 10px 20px;
+  outline: none;
+}
+#change .elseCheck{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding-left: 40%; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#change .checkboxAdd{
+  padding: 5px 10px;
+  display: flex;
+  line-height: 20px;
+  height: 20px;
+}
+#change .textBreak{
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: flex
+}
+#change .addSpanStyle{
+  display: inline-block;
+}
+#change #show2{
+  height: calc(100% - 135px);
+  overflow-y: auto;
+}
+#change #show2 h6{
+  text-align: left
+}
+#change .elseInput1{
+  width: 120px;
+}
+#change .elseInput1 .el-input__inner{
+   background-color:transparent;
+   color: #606266;
+   border-bottom: 1px solid #ccc;
+   border-radius: 0;
+   line-height: 30px;
+   height: 30px;
+}
+#change .elseInput1 .el-input__inner::-webkit-input-placeholder{
+      color:#ccc;
+  }
+#change .elseInput1 .el-input__inner::-moz-placeholder{   /* Mozilla Firefox 19+ */
+  color:#606266;
+}
+#change .elseInput1 .el-input__inner:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+  color:#606266;
+}
+#change .elseInput1 .el-input__inner:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+  color:#606266;
+}
+#change .elseInput{
+  width: 80px;
+}
+#change .elseInput .el-input__inner{
+  background-color:transparent;
+  color: #606266;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  line-height: 20px;
+  height: 20px;
+}
+#change .buttonSite{
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-bottom: 2px solid #409EFF;
+}
+#change .buttonBGC1{
+  background-color: rgb(166,166,166);
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px 5px 0 0;
+  /* margin-bottom: 5px; */
+}
+#change .buttonBGC1:first-of-type{
+  background-color: #409EFF
+}
+#change .buttonBGC2{
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  /* margin-bottom: 5px; */
+}
+#change .el-form-item__label{
+  color:#fff;
+  line-height:32px;
+}
+#change .el-form-item__content{
+  line-height: 32px;
+}
+#change .el-form-item{
+  margin-bottom: 6px;
+}
+#change #Foot{
+  position: fixed;
+  bottom: 0px;
+}
+#change .elForm{
+  text-align: left;
+  padding-left:20px;
+}
+#change .elForm .el-input__inner{
+  text-align: center;
+  width:150px;
+  color:#fff
+}
+#change .elForm .el-select .el-input .el-select__caret{
+  height:32px;
+}
+#change .el-input__inner{
+  border: 0;
+  background-color: #2eb4e7;
+  color: #fff;
+  padding: 0;
+}
+#change .btnDiv .el-select .el-input .el-select__caret{
+  /* background-color: #409Eff; */
+  color: #fff;
+}
+#change .el-input--mini .el-input__icon,#change .el-input--mini .el-input__inner{
+  line-height: 16px;
+  height: 16px;
+}
+#change .tpx{
+  width:80px;
+}
+#change .container1{
+  position: relative;
+  min-height: 300px;
+  height:calc(100% - 80px);
+  overflow-y: hidden;
+  /* margin-bottom: 80px; */
+}
+#change .btn{
+  outline: none;
+  border-radius: 10px;
+  width:140px;
+  padding: 5px 0;
+}
+#change .btnAll{
+  /* background-color:#be0000; */
+  border-color:#be0000;
+}
+#change .btnAreas{
+  /* background-color:#68c847; */
+  border-color:#68c847;
+}
+#change .btnSeepage{
+  /* background-color:#2e96e6; */
+  border-color:#2e96e6;
+}
+#change .btnType{
+  /* background-color:#b45fa6; */
+  border-color:#b45fa6;
+}
+#change .btnPain{
+  /* background-color:#c45a11; */
+  border-color:#c45a11;
+}
+#change .btnSet{
+  position: absolute;
+  top:140px;
+  right: 20px;
+}
+#change .btnDiv{
+  display: block;
+  width:100%;
+  height:30px;
+  margin: 10px 0;
+  text-align: right;
+}
+#change .btnLi{
+  float:right;
+}
+#change input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:#fff;
+}
+#change input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:#fff;
+
+}
+#change input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:#fff;
+}
+#change input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#fff;
+}
+#change input::-ms-input-placeholder { /* Microsoft Edge */
+  color:#fff;
+}
+#change #tent .el-radio+.el-radio{
+  margin-left:0;
+}

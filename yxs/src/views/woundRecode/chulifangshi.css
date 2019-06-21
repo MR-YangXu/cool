@@ -1,0 +1,421 @@
+#chulifangshi .el-tabs--top{
+  height: 100%;
+}
+#chulifangshi .cameraStyle{
+  position:absolute;
+  right:0;
+  bottom:0;
+  opacity:0;
+  width:0;
+  height:0;
+}
+#chulifangshi .woundBed .el-form-item{
+  margin-bottom: 0;
+}
+#chulifangshi .woundBed .el-button+.el-button{
+  margin-left:0;
+}
+#chulifangshi .colorSpan{
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+#chulifangshi .dialogDiv .el-radio+.el-radio{
+  margin-left: 0;
+}
+#chulifangshi .FlagStyle{
+  padding: 5px 0;
+}
+#chulifangshi .FlagStyle .el-checkbox__label{
+  color: red;
+}
+#chulifangshi .radioTab .el-radio+.el-radio{
+  margin-left: 0;
+}
+#chulifangshi .buttonBGC1{
+  background-color: rgb(166,166,166);
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px 5px 0 0;
+}
+#chulifangshi .buttonBGC1 span{
+  display: inline-block;
+  width: 2.5em;
+  overflow: hidden;
+}
+#chulifangshi .buttonBGC1:first-of-type{
+  background-color: #409EFF;
+}
+#chulifangshi .buttonBGC1:first-of-type span{
+  width: auto;
+}
+#chulifangshi .elseInput1 .el-input__inner{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  background-color: transparent;
+  height: 20px;
+  line-height: 20px;
+  max-width:70px;
+  padding: 0 3px;
+}
+#chulifangshi .radioSelect{
+  display: block;
+  padding: 2px 0 2px 40px;
+}
+#chulifangshi .INPUTS1 .el-input__inner{
+  text-align: center;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #606266;
+  padding: 0;
+  background: #f2f2f2;
+  height: 20px!important;
+  line-height: 20px;
+}
+#chulifangshi .INPUTS1{
+  width: 70px;
+}
+#chulifangshi .INPUTS1 .el-input__icon{
+  display:none;
+}
+#chulifangshi .flexWound{
+  display: flex;
+  align-items: center;
+}
+#chulifangshi .paddingLR30{
+  padding-left: 20px;
+  padding-right:20px;
+  box-sizing: border-box;
+}
+#chulifangshi .paddingTB10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#chulifangshi .ckeckListStyle{
+  background-color: #f2f2f2;
+}
+#chulifangshi .lineHeight30{
+  line-height: 30px;
+}
+#chulifangshi .el-tabs__nav-wrap{
+  padding-left: 30px;
+}
+#chulifangshi .el-tabs__content{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: calc(100% - 55px);
+}
+#chulifangshi #scrolltop{
+  width:100%;
+  z-index: 5;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  height: calc(100% - 80px);
+}
+#chulifangshi .elSpan{
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+#chulifangshi .buttonBGC{
+  color: #fff;
+  border: none;
+  background-color: rgb(166,166,166);
+}
+#chulifangshi .buttonBGC:nth-child(1){
+  background-color: #409EFF;
+}
+#chulifangshi .buttonBGC3{
+  color: #fff;
+  border: none;
+  background-color: rgb(166,166,166);
+}
+#chulifangshi .buttonBGC3:nth-child(1){
+  background-color: #409EFF;
+}
+#chulifangshi .INPUTS .el-input__inner{
+  text-align: center;
+}
+#chulifangshi .el-checkbox__label{
+  font-size:14px;
+}
+#chulifangshi .gg .elseInput .el-input__inner{
+  width:50px;
+  border-bottom:1px solid #ccc;
+  height: 30px;
+  text-align: center;
+  border-radius: 0;
+}
+#chulifangshi .elseInput1 .el-input__inner{
+  width:100px;
+  border-bottom:1px solid #ccc;
+  height: 30px;
+  padding: 0 15px;
+  border-radius: 0;
+}
+#chulifangshi .woundNum{
+  width:100%;
+  display: flex;
+  overflow: auto;
+  padding: 0px 5px;
+  border-bottom: 2px solid #409EFF;
+  box-sizing: border-box;
+}
+#chulifangshi #Foot{
+  position: fixed;
+  bottom: 0;
+}
+#chulifangshi .flexCenter{
+  display:flex;
+  align-items:space-around;
+  justify-content:center;
+}
+#chulifangshi .flexBetwen{
+  display:flex;
+  align-items:space-around;
+  justify-content:space-between;
+}
+#chulifangshi  .el-input__inner{
+  padding: 0;
+}
+#chulifangshi .checkboxAdd{
+  padding: 5px 10px;
+  display: flex;
+}
+#chulifangshi .BotBut{
+  text-align:center;
+  padding:10px 0;
+}
+#chulifangshi .fuliao{
+  padding: 5px 0 5px 30px;
+  color: #2e96e6
+}
+#chulifangshi .textBreak{
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: flex
+}
+#chulifangshi .addSpanStyle{
+  display: inline-block;
+}
+#chulifangshi .el-input-group__append, .el-input-group__prepend{
+  padding: 0;
+  border:0;
+  background-color: #fff;
+}
+#chulifangshi .el-input__inner{
+  border: 0;
+}
+#chulifangshi .el-radio,.el-checkbox-group{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#chulifangshi .painDiv1{
+   display:flex;
+  justify-content: space-between
+}
+#chulifangshi .painDiv{
+  border-left:2px solid #ccc;
+  height:50px;
+  border-right:2px solid #ccc;
+  display:flex;
+  justify-content: space-between
+}
+#chulifangshi .painSpan{
+  display: inline-block;
+  text-align: center;
+  width:100%;
+}
+#chulifangshi .painSpan + .painSpan{
+  border-left: 2px solid #ccc
+}
+#chulifangshi .painImg{
+  width: 36px;
+  height: 36px;
+}
+#chulifangshi .painLevel{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#chulifangshi .painLevel1{
+
+}
+#chulifangshi .painLevel .el-radio{
+  display: flex;
+  flex-direction: column;
+}
+#chulifangshi .painLevel .el-radio .el-radio__label{
+  padding-left: 0
+}
+#chulifangshi .textLeft{
+  text-align: left;
+}
+#chulifangshi .paddingBottom20{
+  padding-bottom:20px;
+}
+#chulifangshi .marginTop20{
+  margin-top:20px;
+}
+#chulifangshi{
+  position: relative;
+  /* margin-bottom: 80px; */
+  overflow: auto;
+  width:100%;
+  overflow-x: hidden;
+  height: 100%;
+}
+#chulifangshi #canvasBox{
+  position: fixed;
+  left: 0;
+  z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #efefef;
+  padding: 40px 0 0;
+}
+#chulifangshi #canvas{
+  z-index: 2000;
+  margin: 0 auto;
+}
+#chulifangshi #name1{
+  width: 50px;
+  height: 50px;
+}
+#chulifangshi .center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#chulifangshi .tabActive{
+  background-color: #2e96e6;
+  color: #fff
+}
+#chulifangshi .tabShow{
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* height: calc(100% - 181px); */
+}
+#chulifangshi .radio{
+  padding: 0 15px;
+}
+#chulifangshi .writeName{
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+}
+#chulifangshi .chuliRadio{
+  padding: 8px 0 8px 30px;
+}
+#chulifangshi .chuliRadio img{
+  width:100%;
+}
+#chulifangshi .textI{
+  text-indent: 30px;
+}
+#chulifangshi .radioBtn{
+  border: 0px;
+  background-color: #fff;
+  color: #828282;
+  text-align: center;
+  padding: 10px 20px;
+  outline: none;
+}
+#chulifangshi .icon{
+  padding-left: 10px;
+}
+#chulifangshi .canvasBtn{
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #2e96e6;
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 20px;
+  outline: none;
+  /* font-size: 18px; */
+}
+#chulifangshi .elseCheck{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding-left: 40%; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#chulifangshi .getPhoto{
+  position: relative;
+  width:90%;
+  border:1px solid #ccc;
+  margin: 2px auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+#chulifangshi .getPhoto p{
+  width:100%;
+  text-align: center;
+}
+#chulifangshi .putPhoto{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap:wrap;
+  /* z-index: 9999; */
+}
+#chulifangshi .inputStyle{
+  border-bottom:1px solid #ccc;
+}
+#chulifangshi .width100{
+  width: 70px;
+}
+#chulifangshi .width50{
+  width: 50px;
+}
+#chulifangshi .width100 .el-input__icon{
+ display:none;
+}
+#chulifangshi .width50 .el-input__icon{
+ display:none;
+}
+#chulifangshi .borderBottom{
+  border-bottom:1px solid rgba(155,155,155,0.5)
+}
+#chulifangshi .paddingTop20{
+  padding-top: 20px;
+  margin-bottom:80px;
+}
+#chulifangshi .block{
+  display:block;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+#chulifangshi .bgc{
+  background-color:#efefef;
+  padding-left: 20px;
+  padding-right:20px;
+}
+#chulifangshi .bgc .el-radio+.el-radio{
+  margin-left: 0;
+}
+#chulifangshi #SHOW2 .el-input{
+  max-width: 70px;
+}
+#chulifangshi #SHOW2 .el-input__inner{
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  width:100%;
+  max-width:120px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 5px;
+}
